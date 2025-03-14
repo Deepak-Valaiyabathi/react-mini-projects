@@ -1,0 +1,90 @@
+/* .navbar {
+  background-color: white;
+  box-sizing: border-box;
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  place-items: center;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  place-items: center;
+  margin: 0px;
+  gap: 80px;
+}
+.nav-btn {
+  list-style: none;
+}
+.box {
+  padding: 25px;
+  width: 250px;
+  margin: 5px;
+  box-sizing: border-box;
+  background-color: rgb(237, 242, 244);
+}
+.box > img {
+  width: 200px;
+  height: 200px;
+} */
+
+/* @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  nav {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  nav {
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+  }
+  .nav-btn {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .product-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .box {
+    max-width: 150px;
+  }
+}
+
+} */
+
+@media (max-width: 480px) {
+  #ToDo_Box {
+    max-width: 360px;
+  }
+  #task{
+    max-width:220px;
+    border-bottom-left-radius: 20px;
+    padding: 5px;
+    max-height: 80px;
+    box-sizing: border-box;
+  }
+  #add_btn{
+    max-width:50px;
+    border-top-right-radius: 20px;
+    
+  }
+}
